@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mystryxmod:burned_mystryx_ingot",
+    "mystryxmod:burned_mystryx_ingot",
+    "mystryxmod:mystryx_ingot",
+    "mystryxmod:mystryx_ingot"
+  ],
+  "result": {
+    "id": "mystryxmod:dark_mystryx_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "mystryxmod:mystryx_ingot"
+  },
+  "result": {
+    "id": "mystryxmod:mystryx_chestplate",
+    "count": 1
+  }
+}

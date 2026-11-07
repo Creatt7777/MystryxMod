@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "mystryxmod:dark_mystryx_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "mystryxmod:dark_mystryx_pickaxe",
+    "count": 1
+  }
+}

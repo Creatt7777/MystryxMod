@@ -1,0 +1,105 @@
+{
+  "_fv": 89,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "amethyst_helmet",
+    "enableBody": true,
+    "textureBody": "amethyst_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "amethyst_leggings",
+    "enableBoots": true,
+    "textureBoots": "amethyst_boots",
+    "onBootsTick": "MystryxBootsTickEvent",
+    "creativeTabs": [
+      "COMBAT"
+    ],
+    "armorTextureFile": "amethyst",
+    "helmetName": "Mystryx Helmet",
+    "bodyName": "Mystryx Chestplate",
+    "leggingsName": "Mystryx Leggings",
+    "bootsName": "Mystryx Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetTranslucency": false,
+    "bodyTranslucency": false,
+    "leggingsTranslucency": false,
+    "bootsTranslucency": false,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 15,
+    "damageValueHelmet": 1,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 4,
+    "enchantability": 18,
+    "toughness": 3.0,
+    "knockbackResistance": 0.15,
+    "equipSound": "",
+    "repairItems": [
+      "CUSTOM:MystryxIngot"
+    ],
+    "rarity": "EPIC",
+    "attributeModifiers": []
+  }
+}

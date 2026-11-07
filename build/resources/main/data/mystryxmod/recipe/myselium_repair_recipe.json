@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mystryxmod:myselium",
+    "mystryxmod:dark_mystryx_ingot"
+  ],
+  "result": {
+    "id": "mystryxmod:myselium",
+    "count": 1
+  }
+}

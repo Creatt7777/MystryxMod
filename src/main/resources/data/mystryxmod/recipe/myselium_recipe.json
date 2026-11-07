@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " d ",
+    " s ",
+    "msm"
+  ],
+  "key": {
+    "d": "mystryxmod:dark_mystryx_ingot",
+    "s": "minecraft:stick",
+    "m": "mystryxmod:mystryx_ingot"
+  },
+  "result": {
+    "id": "mystryxmod:myselium",
+    "count": 1
+  }
+}

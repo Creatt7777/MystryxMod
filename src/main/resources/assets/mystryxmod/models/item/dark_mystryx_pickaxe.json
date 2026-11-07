@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mystryxmod:item/dark_mystryx_pickaxe"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "net.mcreator.mystryxmod.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "refmap": "mystryxmod.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin",
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
+    "PiglinAiMixin"
+  ],
+  "client": [
+    "EquipmentLayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

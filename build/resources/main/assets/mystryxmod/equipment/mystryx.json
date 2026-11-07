@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mystryxmod:amethyst_layer_1"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mystryxmod:amethyst_layer_2"
+      }
+    ]
+  }
+}

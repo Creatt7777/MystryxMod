@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystryxmod:block/dark_mystryx_ore",
+    "up": "mystryxmod:block/dark_mystryx_ore",
+    "north": "mystryxmod:block/dark_mystryx_ore",
+    "east": "mystryxmod:block/dark_mystryx_ore",
+    "south": "mystryxmod:block/dark_mystryx_ore",
+    "west": "mystryxmod:block/dark_mystryx_ore",
+    "particle": "mystryxmod:block/dark_mystryx_ore"
+  }
+}

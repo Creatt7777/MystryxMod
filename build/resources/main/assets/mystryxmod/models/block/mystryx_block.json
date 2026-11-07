@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystryxmod:block/2000023230",
+    "up": "mystryxmod:block/2000023230",
+    "north": "mystryxmod:block/2000023230",
+    "east": "mystryxmod:block/2000023230",
+    "south": "mystryxmod:block/2000023230",
+    "west": "mystryxmod:block/2000023230",
+    "particle": "mystryxmod:block/2000023230"
+  }
+}

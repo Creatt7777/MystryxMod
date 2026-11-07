@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "mystryxmod:mystryx_block"
+  },
+  "result": {
+    "id": "mystryxmod:mystryx_ingot",
+    "count": 9
+  }
+}

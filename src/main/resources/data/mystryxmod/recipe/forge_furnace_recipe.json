@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bfb",
+    "bbb"
+  ],
+  "key": {
+    "b": "minecraft:blaze_rod",
+    "f": "minecraft:furnace"
+  },
+  "result": {
+    "id": "mystryxmod:forge_furnace",
+    "count": 1
+  }
+}

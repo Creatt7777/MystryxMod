@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mystryxmod",
+  "version": "1.0.0",
+  "name": "MystryxMod",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.mystryxmod.MystryxmodMod"
+    ],
+    "client": [
+      "net.mcreator.mystryxmod.MystryxmodModClient"
+    ]
+  },
+  "mixins": [
+    "mystryxmod.mixins.json"
+  ],
+  "accessWidener": "META-INF/mystryxmod.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "mystryxmod:block/forge_furnace_front",
+    "side": "mystryxmod:block/forge_furnace_side",
+    "top": "mystryxmod:block/forge_furnace_top"
+  }
+}

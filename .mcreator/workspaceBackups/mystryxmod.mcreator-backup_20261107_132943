@@ -1,0 +1,526 @@
+{
+  "mod_elements": [
+    {
+      "name": "MystryxOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/worldgen/placed_feature/mystryx_ore.json",
+          "src/main/resources/data/mystryxmod/worldgen/configured_feature/mystryx_ore.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_ore.json",
+          "src/main/resources/assets/mystryxmod/blockstates/mystryx_ore.json",
+          "src/main/resources/assets/mystryxmod/models/block/mystryx_ore.json",
+          "src/main/resources/data/mystryxmod/loot_table/blocks/mystryx_ore.json",
+          "src/main/java/net/mcreator/mystryxmod/block/MystryxOreBlock.java",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MystryxMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_mod",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "MystryxIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_ingot.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_ingot.json",
+          "src/main/java/net/mcreator/mystryxmod/item/MystryxIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MystryxBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/models/block/mystryx_block.json",
+          "src/main/resources/assets/mystryxmod/blockstates/mystryx_block.json",
+          "src/main/java/net/mcreator/mystryxmod/block/MystryxBlockBlock.java",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_block.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_block.json",
+          "src/main/resources/data/mystryxmod/loot_table/blocks/mystryx_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MystryxBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/advancement/recipes/mystryx_block_recipe.json",
+          "src/main/resources/data/mystryxmod/recipe/mystryx_block_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipes"
+    },
+    {
+      "name": "Mystryx",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mystryxmod/item/MystryxItem.java",
+          "src/main/resources/assets/mystryxmod/items/mystryx_boots.json",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_leggings.json",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_helmet.json",
+          "src/main/resources/assets/mystryxmod/equipment/mystryx.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_helmet.json",
+          "src/main/java/net/mcreator/mystryxmod/client/renderer/item/MystryxArmor.java",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_boots.json",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_chestplate.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_chestplate.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Mystryx"
+    },
+    {
+      "name": "MystryxHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_helmet.json"
+        ]
+      },
+      "path": "~/Armor/Mystryx/Recipes"
+    },
+    {
+      "name": "MystryxChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_chestplate.json"
+        ]
+      },
+      "path": "~/Armor/Mystryx/Recipes"
+    },
+    {
+      "name": "MystryxLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Mystryx/Recipes"
+    },
+    {
+      "name": "MystryxBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_boots.json"
+        ]
+      },
+      "path": "~/Armor/Mystryx/Recipes"
+    },
+    {
+      "name": "MystryxBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mystryxmod/procedures/MystryxBootsTickEventProcedure.java"
+        ]
+      },
+      "path": "~/Armor/Mystryx"
+    },
+    {
+      "name": "MystryxSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_sword.json",
+          "src/main/resources/assets/mystryxmod/items/mystryx_sword.json",
+          "src/main/java/net/mcreator/mystryxmod/item/MystryxSwordItem.java"
+        ]
+      },
+      "path": "~/Weapon"
+    },
+    {
+      "name": "MystryxPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/items/mystryx_pickaxe.json",
+          "src/main/resources/assets/mystryxmod/models/item/mystryx_pickaxe.json",
+          "src/main/java/net/mcreator/mystryxmod/item/MystryxPickaxeItem.java"
+        ]
+      },
+      "path": "~/Weapon"
+    },
+    {
+      "name": "MystryxSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_sword_recipe.json"
+        ]
+      },
+      "path": "~/Weapon/Recipes"
+    },
+    {
+      "name": "MystryxPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Weapon/Recipes"
+    },
+    {
+      "name": "MystryxBlockUnCraftRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystryx_block_un_craft_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/mystryx_block_un_craft_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Recipes"
+    },
+    {
+      "name": "DarkMystryxOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mystryx_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/worldgen/placed_feature/dark_mystryx_ore.json",
+          "src/main/resources/data/mystryxmod/worldgen/configured_feature/dark_mystryx_ore.json",
+          "src/main/resources/assets/mystryxmod/items/dark_mystryx_ore.json",
+          "src/main/resources/assets/mystryxmod/blockstates/dark_mystryx_ore.json",
+          "src/main/resources/assets/mystryxmod/models/block/dark_mystryx_ore.json",
+          "src/main/resources/data/mystryxmod/loot_table/blocks/dark_mystryx_ore.json",
+          "src/main/java/net/mcreator/mystryxmod/block/DarkMystryxOreBlock.java",
+          "src/main/resources/assets/mystryxmod/models/item/dark_mystryx_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DarkMystryxIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mystryx_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/models/item/dark_mystryx_ingot.json",
+          "src/main/resources/assets/mystryxmod/items/dark_mystryx_ingot.json",
+          "src/main/java/net/mcreator/mystryxmod/item/DarkMystryxIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Myselium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "myselium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/models/item/myselium.json",
+          "src/main/resources/assets/mystryxmod/items/myselium.json",
+          "src/main/java/net/mcreator/mystryxmod/item/MyseliumItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DarkMystryxSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mystryx_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/items/dark_mystryx_sword.json",
+          "src/main/resources/assets/mystryxmod/models/item/dark_mystryx_sword.json",
+          "src/main/java/net/mcreator/mystryxmod/item/DarkMystryxSwordItem.java"
+        ]
+      },
+      "path": "~/Weapon"
+    },
+    {
+      "name": "DarkMystryxPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mystryx_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystryxmod/items/dark_mystryx_pickaxe.json",
+          "src/main/resources/assets/mystryxmod/models/item/dark_mystryx_pickaxe.json",
+          "src/main/java/net/mcreator/mystryxmod/item/DarkMystryxPickaxeItem.java"
+        ]
+      },
+      "path": "~/Weapon"
+    },
+    {
+      "name": "DarkMystryxSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mystryx_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/dark_mystryx_sword_recipe.json"
+        ]
+      },
+      "path": "~/Weapon/Recipes"
+    },
+    {
+      "name": "DarkMystryxPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mystryx_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/dark_mystryx_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Weapon/Recipes"
+    },
+    {
+      "name": "MyseliumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "myselium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystryxmod/recipe/myselium_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~MystryxOre@CUSTOM:MystryxOre",
+      "~MystryxBlock@CUSTOM:MystryxBlock",
+      "~DarkMystryxOre@CUSTOM:DarkMystryxOre"
+    ],
+    "ITEMS:mystryxmod:mystryx_repair_items": [
+      "~Mystryx@CUSTOM:MystryxIngot"
+    ],
+    "ITEMS:mystryxmod:mystryx_sword_repair_items": [
+      "~MystryxSword@CUSTOM:MystryxIngot"
+    ],
+    "ITEMS:mystryxmod:mystryx_pickaxe_repair_items": [
+      "~MystryxPickaxe@CUSTOM:MystryxIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~MystryxSword@CUSTOM:MystryxSword",
+      "~DarkMystryxSword@CUSTOM:DarkMystryxSword"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~Mystryx@CUSTOM:Mystryx.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~Mystryx@CUSTOM:Mystryx.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~Mystryx@CUSTOM:Mystryx.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~Mystryx@CUSTOM:Mystryx.boots"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~MystryxPickaxe@CUSTOM:MystryxPickaxe",
+      "~DarkMystryxPickaxe@CUSTOM:DarkMystryxPickaxe"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DarkMystryxOre@CUSTOM:DarkMystryxOre"
+    ],
+    "ITEMS:mystryxmod:dark_mystryx_sword_repair_items": [
+      "~DarkMystryxSword@CUSTOM:DarkMystryxIngot"
+    ],
+    "ITEMS:mystryxmod:dark_mystryx_pickaxe_repair_items": [
+      "~DarkMystryxPickaxe@CUSTOM:DarkMystryxIngot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.mystryxmod.mystryx_ore": "Mystryx Ore",
+      "item_group.mystryxmod.mystryx_mod": "Mystryx Mod",
+      "item.mystryxmod.mystryx_ingot": "Mystryx Ingot",
+      "item.mystryxmod.mystryx_block": "Mystryx Block",
+      "item.mystryxmod.mystryx_chestplate": "Mystryx Chestplate",
+      "item.mystryxmod.mystryx_boots": "Mystryx Boots",
+      "item.mystryxmod.mystryx_leggings": "Mystryx Leggings",
+      "item.mystryxmod.mystryx_helmet": "Mystryx Helmet",
+      "item.mystryxmod.mystryx_sword": "Mystryx Sword",
+      "item.mystryxmod.mystryx_pickaxe": "Mystryx Pickaxe",
+      "item.mystryxmod.dark_mystryx_ore": "Dark Mystryx Ore",
+      "item.mystryxmod.dark_mystryx_ingot": "Dark Mystryx Ingot",
+      "item.mystryxmod.dark_mystryx_sword": "Dark Mystryx Sword",
+      "item.mystryxmod.dark_mystryx_pickaxe": "Dark Mystryx Pickaxe",
+      "item.mystryxmod.myselium": "Myselium"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/mystryxmod/mixin/EquipmentLayerRendererMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/init/MystryxmodModArmorModels.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/PiglinAiMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/init/MystryxmodModBlocks.java",
+      "src/main/java/net/mcreator/mystryxmod/init/MystryxmodModItems.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/init/MystryxmodModFeatures.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/mystryxmod/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/ExperienceOrbMixin.java",
+      "src/main/resources/META-INF/mystryxmod.classtweaker",
+      "src/main/java/net/mcreator/mystryxmod/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/init/MystryxmodModTabs.java",
+      "src/main/java/net/mcreator/mystryxmod/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/mystryxmod/MystryxmodModClient.java",
+      "src/main/java/net/mcreator/mystryxmod/event/ItemEvents.java",
+      "src/main/java/net/mcreator/mystryxmod/event/BlockEvents.java",
+      "src/main/resources/mystryxmod.mixins.json",
+      "src/main/java/net/mcreator/mystryxmod/MystryxmodMod.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/mystryxmod/event/MiscEvents.java",
+      "src/main/java/net/mcreator/mystryxmod/mixin/BlockItemMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/mystryxmod/event/LivingEntityEvents.java",
+      "src/main/resources/data/mystryxmod/tags/item/dark_mystryx_sword_repair_items.json",
+      "src/main/resources/data/mystryxmod/tags/item/dark_mystryx_pickaxe_repair_items.json",
+      "src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": [
+          {
+            "name": "Mystryx",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weapon",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mystryxmod",
+    "modName": "MystryxMod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "modElementsPackage": "net.mcreator.mystryxmod"
+  },
+  "mcreatorVersion": 202600233518
+}
